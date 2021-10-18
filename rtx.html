@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <center>
+    <body>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="rtx.html">rtx</a></li>
+        <li><a href="gtx.html">gtx</a></li>
+        <li><button onclick="lightmode()">light mode</button></li>
+        <li><button onclick="darkmode()">dark mode</button></li>
+      </ul>
+      <h1>rtx</h1>
+      <h2>rtx 2060</h2>
+      <img
+        src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-rtx-turing/2060/geforce-rtx-2060-gallery-a-641-d.jpg"
+      />
+
+      <br />
+      <div id="div1">
+        <h2>rtx 2070</h2>
+        <img
+          id="img1"
+          src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-rtx-turing/2070/gallery/geforce-rtx-2070-gallery-c.jpg"
+        />
+      </div>
+      <br />
+      <h2>rtx 2080</h2>
+      <img
+        src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-rtx-turing/2080/gallery/geforce-rtx-2080-gallery-b-641-u.jpg"
+      />
+      <div></div>
+      <script>
+        function lightmode() {
+          document.body.style.backgroundColor = "white";
+        }
+        function darkmode() {
+          document.body.style.backgroundColor = "black";
+        }
+      </script>
+    </body>
+  </center>
+</html>
